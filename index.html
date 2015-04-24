@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="dribbble">
+	<head>
+		<meta charset="UTF-8">
+		<title>Desafio Concrete Solutions</title>
+
+		<link href="http://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,700" rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="css/Foundation/foundation.css">
+	    <link rel="stylesheet" type="text/css" href="css/Home/main.css">
+	    <link rel="stylesheet" href="css/style.css" />
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+	<body ng-controller="AppCtrl">
+
+		<div ng-view></div>
+
+	<!-- Incluindo AngularJS do Google CDN e o módulo resource -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
+
+	<!-- import angularJS project -->
+	<script type="text/javascript" src="js/Project/app.js"></script>
+	<script type="text/javascript" src="js/Project/controllers.js"></script>
+	<script type="text/javascript" src="js/Project/directives.js"></script>
+	<script type="text/javascript" src="js/Project/filters.js"></script>
+	<script type="text/javascript" src="js/Project/services.js"></script>
+</body>
+</html>
